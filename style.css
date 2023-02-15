@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    background-color: #f7facd;
+}
+
+.formulario-disabled{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-disabled, input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.cep {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#label {
+    font-size: 16px;
+}
+
+#input-cep {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px;
+    transition: width 0.4s ease-in-out;
+    margin-top: 10px;
+}
+
+#input-cep:focus {
+    width: 100%;
+}
+
+#botao-cep{
+    background-color: #f7facd;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#erro{
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
